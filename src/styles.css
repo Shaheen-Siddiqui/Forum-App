@@ -1,0 +1,142 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-wrapper {
+  height: 90vh;
+  /* width: 35%; */
+  background-color: white;
+  /* padding: 1rem; */
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.ul-case ul li:first-child {
+  margin-bottom: 2rem;
+  font-weight: bolder;
+  color: blue;
+}
+.ul-case ul li:nth-child(2) {
+  font-weight: bold;
+}
+
+.ul-case ul {
+  list-style: none;
+  text-align: left;
+  font-weight: normal;
+}
+
+.ul-case li {
+  margin: 1rem;
+}
+.left-sidebar-case {
+  position: fixed;
+  left: 0;
+  height: 90vh;
+  width: 30%;
+}
+.post-main-case {
+  width: 35%;
+  margin: 0 30% 0 30%;
+}
+.right-sidebar-case {
+  position: fixed;
+  right: 0;
+  width: 30%;
+  top: 0;
+  text-align: left;
+}
+.latest-post-test {
+  text-align: left;
+}
+.pill {
+  color: gray;
+  font-size: 5rem;
+  /* border: solid; */
+  line-height: 2rem;
+}
+.single-post-case {
+  display: flex;
+  justify-content: space-between;
+  background-color: cornsilk;
+  margin-top: 1rem;
+}
+.votes {
+  color: blue;
+  display: flex;
+  flex-direction: column;
+}
+
+.votes button {
+  color: gray;
+}
+.post-icon {
+  display: flex;
+  justify-content: space-between;
+}
+.post-icon i {
+  font-size: 1.5rem;
+  color: gray;
+  cursor: pointer;
+}
+.votes button {
+  border: none;
+  font-size: 2rem;
+  outline: none;
+  background-color: transparent;
+}
+.posted-user-name {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.5rem;
+}
+.post-info {
+  text-align: left;
+  padding: 0.7rem;
+}
+.issue-btn button {
+  background-color: gray;
+}
+.user-info-case img {
+  height: 3rem;
+}
+
+.user-info-case {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.user-img-info {
+  display: flex;
+  flex-direction: column;
+  line-height: 0.5;
+  margin-top: 0.5rem;
+}
+
+.user-comment-case {
+  display: flex;
+}
+.image-user {
+  height: 3rem;
+}
+.comment-info {
+  text-align: left;
+  padding-left: 1rem;
+  width: 100%;
+  padding: 0 1rem;
+}
+.cmt-icon {
+  display: flex;
+  justify-content: space-between;
+}
+.right-side {
+  width: 20rem;
+}
